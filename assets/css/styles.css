@@ -2,6 +2,10 @@
    font-family: "Roboto", sans-serif;
  }
 
+ body{
+   margin: 0px;
+ }
+
 h2 {
    font-weight: 500;
    font-size : 2.15rem;
@@ -150,4 +154,43 @@ footer a {
 footer a:hover {
    color : rgba(255, 111, 97, 1);
    transition: 0.2s ease-in-out;
+}
+
+#bottom-page {
+   margin-top: 80px;
+   display: flex;
+   justify-content: space-around;
+   background-color: rgba(30, 40, 50, 1);
+   align-items: center;
+}
+
+#bottom-page button{
+   height: 30px;
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   border: 0;
+   color: white;
+   font-size: 0.7rem;
+   font-weight: 400;
+   cursor: pointer;
+   border-radius: 2px;
+   transition: 0.2s ease-in-out;
+}
+
+#bottom-page button:hover{
+   background-color: rgba(255, 111, 97, 1);
+   transition: 0.2s ease-in-out;
+}
+
+#bottom-page button:focus{
+   background-color: rgb(177, 58, 47);
+   transition: 0.2s ease-in-out;
+}
+
+#bottom-page h6{
+   margin-block: 15px;
+   color: white;
+   font-weight: 400;
+
 }
