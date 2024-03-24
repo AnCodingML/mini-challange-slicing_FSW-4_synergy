@@ -1,0 +1,1 @@
+# mini-challange-slicing_FSW-4_synergy
