@@ -4,7 +4,7 @@
 
 h2 {
    font-weight: 500;
-   font-size : 2rem;
+   font-size : 2.15rem;
    line-height: 3.67rem;
    margin-top: 0px;
 }
@@ -29,7 +29,7 @@ h2 {
 
 #follow-products form {
  margin-block-start: 0.83rem;
- width: 40%;
+ width: 45%;
 }
 
 #follow-products #form-subscribe {
@@ -89,6 +89,6 @@ h2 {
    display: inline-flex;
    justify-content: center;
    opacity: 0;
-   transition: opacity 0.3s ease-in-out;
-   
+   transition: opacity 0.3s ease-in-out;  
 }
+
