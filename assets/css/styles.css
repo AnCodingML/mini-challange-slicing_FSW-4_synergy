@@ -10,10 +10,10 @@ h2 {
 }
 
 #follow-products {
-   /* padding: 100px 300px 100px 300px; */
+   padding : 70px 50px;
    background-color: rgba(30, 40, 50, 0.05);
    display: grid;
-   justify-content: center;
+   justify-items: center;
    text-align: center;
 }
 
@@ -24,4 +24,71 @@ h2 {
 
 #follow-products #list-product {
    gap: 15px;
+   display: flex;
+}
+
+#follow-products form {
+ margin-block-start: 0.83rem;
+ width: 40%;
+}
+
+#follow-products #form-subscribe {
+   display: flex;
+   gap: 5px;
+}
+
+
+#follow-products form input {
+    background: transparent;
+    border-inline: 0px;
+    border-top: 0px;
+    border-bottom: 1.5px solid black;
+    font-size: 0.7rem;
+    padding: 5px 7px;
+}
+
+#follow-products form input[type="email"] {
+   width: 100%;
+   font-weight: 600;
+}
+#follow-products form input[type="email"]::placeholder {
+   color: rgba(30, 40, 50, 0.5);
+}
+#follow-products form input[type="submit"] {
+   font-weight: 300;
+   cursor:pointer;
+   transition: 0.2s ease;
+   width: 65px;
+}
+
+#follow-products form input[type="submit"]:hover {
+   transition: 0.2s ease;
+   font-weight: 700;
+}
+
+#follow-products .product:hover .products-hover {
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+   height: 130px;
+   width: 130px;
+   transform: translateX(-100%);
+   align-items: center;
+   display: inline-flex;
+   justify-content: center;
+   opacity: 1;
+   transition: opacity 0.3s ease-in-out;
+}
+
+#follow-products .product .products-hover{
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+   height: 130px;
+   width: 130px;
+   transform: translateX(-100%);
+   align-items: center;
+   display: inline-flex;
+   justify-content: center;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+   
 }
