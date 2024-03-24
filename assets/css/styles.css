@@ -92,3 +92,62 @@ h2 {
    transition: opacity 0.3s ease-in-out;  
 }
 
+footer {
+   margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+
+footer div {
+   display: grid;
+}
+
+footer div.icon {
+   display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+footer div.icon img{
+   height: 20px;
+}
+
+footer p {
+   font-size: 0.7rem;
+   font-weight: 400;
+   color: rgba(30, 40, 50, 0.75);
+   margin-top: 30px;
+   margin-bottom: 0;
+   line-height: 25px;
+}
+
+footer .column-1 {
+   width: 275px
+}
+footer .column-2 {
+   width: 580px;
+   display: flex;
+   justify-content: space-between   ;
+}
+
+footer h5 {
+   margin-top: 0;
+   font-weight: 500;
+   font-size: 0.77rem;
+   margin-bottom: 10px;
+}
+
+footer a {
+   text-decoration: none;
+   font-size: 0.7rem;
+   color: rgba(30, 40, 50, 1);
+   font-weight: 400;
+   transition: 0.2s ease-in-out;
+   margin-top: 15px;
+}
+
+footer a:hover {
+   color : rgba(255, 111, 97, 1);
+   transition: 0.2s ease-in-out;
+}
