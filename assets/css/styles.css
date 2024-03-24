@@ -1,0 +1,27 @@
+* {
+   font-family: "Roboto", sans-serif;
+ }
+
+h2 {
+   font-weight: 500;
+   font-size : 2rem;
+   line-height: 3.67rem;
+   margin-top: 0px;
+}
+
+#follow-products {
+   /* padding: 100px 300px 100px 300px; */
+   background-color: rgba(30, 40, 50, 0.05);
+   display: grid;
+   justify-content: center;
+   text-align: center;
+}
+
+#follow-products img {
+   height: 130px;
+   width: 130px;
+}
+
+#follow-products #list-product {
+   gap: 15px;
+}
